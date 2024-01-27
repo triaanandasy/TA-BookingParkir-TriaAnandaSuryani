@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgprofilee"
+    tools:context=".ProfileFragment">
+
+
+    <ImageView
+        android:id="@+id/iv_profile"
+        android:layout_width="145dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="52dp"
+        android:src="@drawable/profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_kamera"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/kamera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.64"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="Tria Ananda"
+        android:textSize="17dp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_profile" />
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="344dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/loginbutton"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="Informasi Akun"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/tulisan"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="55dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.907"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+
+    <EditText
+        android:id="@+id/edit_profile"
+        android:layout_width="344dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/loginbutton"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="Edit Profile"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/tulisan"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_username" />
+
+    <ImageView
+        android:id="@+id/next2"
+        android:layout_width="55dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.907"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_username" />
+
+    <EditText
+        android:id="@+id/riwayat"
+        android:layout_width="344dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/loginbutton"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="Riwayat"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/tulisan"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_profile" />
+
+    <ImageView
+        android:id="@+id/next3"
+        android:layout_width="55dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.907"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_profile" />
+
+    <EditText
+        android:id="@+id/quickpay"
+        android:layout_width="344dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/loginbutton"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="QuickPay"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/tulisan"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/riwayat" />
+
+    <ImageView
+        android:id="@+id/next4"
+        android:layout_width="55dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.907"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/riwayat" />
+
+    <ImageView
+        android:id="@+id/logout"
+        android:layout_width="55dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.373"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quickpay" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Keluar?"
+        android:textColor="@color/tulisan"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quickpay" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

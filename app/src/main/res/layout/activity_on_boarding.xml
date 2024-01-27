@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnBoarding">
+
+    <ImageView
+        android:id="@+id/img_ws"
+        android:layout_width="335dp"
+        android:layout_height="359dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/welcomescreen" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/img_ws"
+
+        android:id="@+id/ly_1">
+
+        <TextView
+            android:id="@+id/txt_ws"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppins_bold"
+            android:padding="0dp"
+            android:layout_marginLeft="20dp"
+            android:text="Selamat Datang ✨"
+            android:textColor="@color/tulisan"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txt_ws1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginLeft="20dp"
+            android:text="QuickPark"
+            android:textColor="@color/primary"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/text_atau"
+            android:layout_width="372dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Dapatkan pengalaman parkir  mudah dan efisien. Ayo bergabung sekarang!"
+
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_loginws"
+        android:layout_width="40dp"
+        android:layout_height="61dp"
+        android:layout_below="@+id/ly_1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="207dp"
+        android:width="2000dp"
+        android:background="@drawable/button_login"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Masuk"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_daftarws"
+        android:layout_width="40dp"
+        android:layout_height="61dp"
+        android:layout_below="@+id/ly_1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="10dp"
+        android:width="200dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Daftar"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

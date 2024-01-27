@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="primary">#1B6B93</color>
+    <color name="tulisan">#0F2F3F</color>
+    <color name="loginbutton">#F1F4FF</color>
 </resources>
